@@ -1,0 +1,290 @@
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.container {
+  width: 85%;
+}
+
+.main {
+  background-color: #f1f3ff;
+  position: relative;
+}
+
+.main .jumbotron {
+  height: 60vh;
+}
+
+.main .jumbotron .main-img img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.main .navbar .container .navbar-collapse button {
+  background-color: #5cb85f;
+  font-weight: 700;
+}
+
+.main .jumbotron .main-content {
+  height: 60vh;
+}
+
+.main .jumbotron .main-content .content {
+  margin: auto 0;
+}
+
+.main .jumbotron .main-content .content h1 {
+  font-size: 36px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.main .jumbotron .main-content .content p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 143%;
+  padding-right: 3.5rem;
+}
+
+.main .jumbotron .main-content .content button {
+  background-color: #5cb85f;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.search-car {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+/* Our Service */
+.service {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.service .row .service-content h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.service .row .service-content {
+  margin: auto 0;
+}
+
+.service .row .service-content p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 143%;
+}
+
+.service .row ul .icon-list span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 143%;
+  position: absolute;
+  top: 15px;
+  margin-left: 16px;
+}
+
+.service .row ul .icon-list {
+  position: relative;
+}
+
+.service .row ul .icon-list .icon-service {
+  background-color: #cfd4ed;
+  width: 30px;
+  height: 30px;
+}
+
+/* Why Us Style */
+.fitur {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.icon-fitur {
+  width: 40px;
+  height: 40px;
+}
+
+/* Testimonial Style */
+.testimoni {
+  padding: 0;
+}
+
+.testimoni-thumb img {
+  width: 120px !important;
+}
+
+.testimoni .owl-theme .item .card {
+  background-color: #f1f3ff;
+  border: none;
+}
+
+.testi-text {
+  margin: auto 0;
+}
+
+.testi-text img {
+  width: 100px !important;
+  margin-bottom: 10px;
+}
+
+.owl-dots {
+  display: none;
+}
+
+.testi-text .author {
+  font-weight: 400;
+}
+
+.owl-nav button span {
+  font-size: 50px;
+  font-weight: 100;
+  align-items: center !important;
+  line-height: 0.8;
+}
+
+.owl-nav button {
+  margin-top: 20px !important;
+  border: 1px solid #464646eb !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+}
+
+.owl-nav button:hover {
+  background-color: #5cb85f !important;
+}
+
+/* CTA Style */
+.cta {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  background-color: #0d28a6;
+  border-radius: 13px;
+  padding: 60px 0;
+}
+
+.cta .cta-button {
+  background-color: #5cb85f;
+}
+
+/* Faq Style */
+.faq {
+  margin-bottom: 7rem;
+}
+
+.accordion-button {
+  border: 0.5px solid #414141b3;
+}
+
+/* Footer Style */
+footer .footer-menu a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+footer .social .social-item {
+  background-color: #0d28a6;
+}
+
+footer .social .social-item a {
+  color: #fff;
+}
+
+/* Responsive */
+@media screen {
+  @media (max-width: 450px) {
+    .container {
+      width: 100%;
+    }
+
+    .main .jumbotron {
+      height: 70vh;
+    }
+
+    .main .jumbotron .main-img img {
+      width: 385px;
+    }
+
+    .main .jumbotron .main-content .content p {
+      padding-right: 0;
+    }
+
+    .service {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+
+    .reason {
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+
+    .fitur {
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+    }
+
+    .testi-text img {
+      margin: auto;
+      margin-bottom: 2rem;
+    }
+
+    .testimoni .owl-theme .item {
+      margin: 0 1rem;
+    }
+
+    .cta {
+      width: 95%;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    .faq {
+      margin-bottom: 3rem;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .main .jumbotron {
+      height: 90vh;
+    }
+
+    .main .jumbotron .main-img img {
+      width: 350px;
+    }
+  }
+}
